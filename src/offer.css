@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+.head-offer {
+    height: 50vh;
+    text-align: center;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+}
+p.head-offer-text {
+    float: left;
+    width: 40%;
+    margin: 50px 50px;
+    font-size: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.path-to-pricing {
+    text-align: left;
+    margin-top: 20px; 
+    width: fit-content;
+}
+.path-to-pricing a {
+    text-decoration: none;
+    color: black;
+}
+.path-to-pricing button:hover {
+    background-color: burlywood;
+}
+.path-to-pricing button{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color:beige;
+    list-style: none;
+}
+.icon-price {
+    font-size: 15px;
+}
+.about-offer {
+    width: 80%;
+    margin-left: 10%;
+}
+.about-offer img {
+    margin-bottom: 30px;
+}
+.main-offer {
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+.collapsible .content {
+    padding: 6px;
+    background-color: #eeeeee;
+}
+.collapsible .header {
+    background-color: #dddddd;
+    padding: 6px;
+    cursor: pointer;
+}
+.header {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+.item {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px;
+    background-color: aqua;
+}
+.item + .item {
+    margin-top: 10px;
+}
+h2.head {
+    text-align: center;
+}
+h2.item-header {
+    font-size: 20px;
+}
+.body {
+    margin-top: 50px;
+}
